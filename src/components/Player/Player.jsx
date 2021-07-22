@@ -33,7 +33,7 @@ const Player = () => {
             </div>
             <ReactAudioPlayer
                 style={{ display: 'none' }}
-                src="https://mp3cake.com/files/1a/1af/taylor-swift-love-story-taylors-version-mp3cake.com.mp3"
+                src="https://github.com/Banila48/Feels-on-Wheels/raw/master/src/components/Player/%E9%9D%9E%E8%AF%9A%E5%8B%BF%E6%89%B0%20vibes.mp3"
                 autoPlay
                 controls
                 muted={isNoiseMuted}
