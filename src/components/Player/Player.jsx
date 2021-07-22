@@ -4,6 +4,7 @@ import ReactAudioPlayer from "react-audio-player";
 import Loader from '../Loader/Loader';
 import PlayerService from './Player.service';
 import './Player.css';
+import Button from './Button.js';
 
 const Player = () => {
     const ps = new PlayerService();
@@ -36,6 +37,7 @@ const Player = () => {
                 src="https://github.com/Banila48/Feels-on-Wheels/raw/master/src/components/Player/%E9%9D%9E%E8%AF%9A%E5%8B%BF%E6%89%B0%20vibes.ogg"
                 autoPlay
                 controls
+                loop
                 muted={isNoiseMuted}
             />
             <select
@@ -48,12 +50,12 @@ const Player = () => {
                     <option key={city} value={city}>{city}</option>
                 ))}
             </select>
-            <button
-                style={{ position: "absolute", top: 50, right: 50 }}
-                onClick={() => setIsNoiseMuted(!isNoiseMuted)}
-            >
-                Mute Songs
-            </button>
+
+            <Button
+              text={isNoiseMuted ? 'Unmute Songs' : 'Mute Songs'}
+              onClick={() => setIsNoiseMuted(!isNoiseMuted)}
+            />
+
             {isOverlayVisible && (<Loader />)}
         </>
     );

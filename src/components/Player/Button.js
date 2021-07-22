@@ -4,7 +4,7 @@ const Button = ({ color, text, onClick }) => {
   return (
     <button
       onClick={onClick}
-      style={{ backgroundColor: color }}
+      style={{ position: "absolute", top: 50, right: 50 }}
       className='btn'
     >
       {text}
@@ -13,13 +13,7 @@ const Button = ({ color, text, onClick }) => {
 }
 
 Button.defaultProps = {
-  color: 'black',
-}
-
-Button.propTypes = {
-  text: PropTypes.string,
-  color: PropTypes.string,
-  onClick: PropTypes.func,
+  color: 'green',
 }
 
 export default Button
