@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Feels-on-Wheels/static/css/main.8969acb1.chunk.css",
+    "main.js": "/Feels-on-Wheels/static/js/main.15b2522f.chunk.js",
+    "main.js.map": "/Feels-on-Wheels/static/js/main.15b2522f.chunk.js.map",
+    "runtime-main.js": "/Feels-on-Wheels/static/js/runtime-main.7c93f0db.js",
+    "runtime-main.js.map": "/Feels-on-Wheels/static/js/runtime-main.7c93f0db.js.map",
+    "static/js/2.776d5e6b.chunk.js": "/Feels-on-Wheels/static/js/2.776d5e6b.chunk.js",
+    "static/js/2.776d5e6b.chunk.js.map": "/Feels-on-Wheels/static/js/2.776d5e6b.chunk.js.map",
+    "index.html": "/Feels-on-Wheels/index.html",
+    "static/css/main.8969acb1.chunk.css.map": "/Feels-on-Wheels/static/css/main.8969acb1.chunk.css.map",
+    "static/js/2.776d5e6b.chunk.js.LICENSE.txt": "/Feels-on-Wheels/static/js/2.776d5e6b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c93f0db.js",
+    "static/js/2.776d5e6b.chunk.js",
+    "static/css/main.8969acb1.chunk.css",
+    "static/js/main.15b2522f.chunk.js"
+  ]
+}
