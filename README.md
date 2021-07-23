@@ -9,6 +9,6 @@ Originally forked from this [repo](https://github.com/Nd98/DriveAndListen)
 
   - It contains the cities I have been to and places I would like to visit once COVID decided to end its world  tour
 
-  - _Challenges: Gifs are more convenient than CSS and SVG as the latter will take numerous lines of code to implement. Gifs are also more browser friendly_
+  - _Takeaways: Gifs are more convenient than CSS and SVG as the latter will take numerous lines of code to implement. Autoplay function didn't work out due to browser blocking policy, I need to implement an event to detect and handle autoplay failure._
 
   - **_Technologies used:_** React
