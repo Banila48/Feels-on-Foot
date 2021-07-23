@@ -16,9 +16,11 @@
 .btn {
   display: inline-block;
   border: none;
-  background: #000000;
-  color: #FFFFFF;
-  padding: 10px 10px;
+  /* background: #000000; */
+  background: white;
+  border: 1.5px solid black;
+  color: #000000 ;
+  padding: 2px 2px;
   text-decoration: none;
   font-family: inherit;
 }
