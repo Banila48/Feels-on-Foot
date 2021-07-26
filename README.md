@@ -1,4 +1,4 @@
-# 🚗 Feels on Wheels
+# 🚗 Feels on Foot
 
 Inspired by the popular [Drive and Listen website](https://driveandlisten.herokuapp.com/)
 
