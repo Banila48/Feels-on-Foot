@@ -1,19 +1,20 @@
 export default class PlayerService {
     links = {
-        "Barcelona": "hbYweUDbtxc",
-        "Lisbon": "59aKTAVsfP8",
-        "Prague": "hGQqjJEnyJU",
-        "Seoul": "G_H800ffKb0",
-        "Singapore": "IpEpTWIDL4Q",
+        "Barcelona": "F9_oIh8QaJw",
+        "Lisbon": "MXlFDpaQ1ec",
+        "Prague": "tNJTWOUH8JE",
+        "Seoul": "Mt4s1Gg2-d4",
+        "Singapore": "7xK9jGqfTlA",
         "Hong Kong": "V8nBZbbJePs",
+        "Shibuya, Tokyo": "vGTu_h0x1kM",
         "Tochigi, Tokyo": "G_H800ffKb0",
-        "Taipei": "KvNLWsBQYPE",
-        "Bangkok": "kOKAlvVBVoI",
-        "Andalusia": "svR_pijHljw",
-        "Croatia": "Ejq9iwZRR7Q"
+        "Taipei": "eIUTlDEKJXA",
+        "Bangkok": "V8e78zOVdTs",
+        "Toledo": "Yex5X2p2izk",
+        "Makarska": "7mJE7Tb-P4M"
     };
-    cities = ["Barcelona", "Lisbon", "Prague", "Seoul", "Singapore", "Hong Kong",
-  "Tochigi, Tokyo", "Taipei", "Bangkok", "Andalusia","Croatia"
+    cities = ["Barcelona", "Lisbon", "Prague", "Seoul", "Singapore", "Hong Kong", "Shibuya, Tokyo",
+  "Tochigi, Tokyo", "Taipei", "Bangkok", "Toledo","Makarska"
 ];
     speed = 1;
     opts = {
@@ -22,9 +23,9 @@ export default class PlayerService {
         playerVars: {
             autoplay: 1,
             fs: 0,
+            showinfo: 1,
             disableKeyboard: 1,
-            controls: 1,
-            showinfo: 0,
+            controls: 2,
             modestbranding: 0,
             rel: 0,
             mute: 1,

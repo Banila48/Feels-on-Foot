@@ -8,7 +8,7 @@ import Button from './Button.js';
 
 const Player = () => {
     const ps = new PlayerService();
-    const [selectedCity, setSelectedCity] = useState(ps.cities[1]);
+    const [selectedCity, setSelectedCity] = useState(ps.cities[0]);
     const [isNoiseMuted, setIsNoiseMuted] = useState(false);
     const [isOverlayVisible, setOverlayVisible] = useState(true)
 
@@ -32,11 +32,13 @@ const Player = () => {
                     onPlaybackRateChange={() => { }}
                 />
             </div>
+
+
             <ReactAudioPlayer
                 style={{ display: 'none' }}
                 src="https://github.com/Banila48/Feels-on-Wheels/raw/master/src/components/Player/%E9%9D%9E%E8%AF%9A%E5%8B%BF%E6%89%B0%20vibes.ogg"
                 autoPlay
-                controls
+                volume
                 loop
                 muted={isNoiseMuted}
             />
